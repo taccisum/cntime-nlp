@@ -9,7 +9,7 @@ fork 自 [Kelab/ChineseTimeNLP](https://github.com/Kelab/ChineseTimeNLP).
 
 ## 配置
 
-可以传入自定义的 pattern，默认 pattern 也可以通过 `from ChineseTimeNLP import pattern` 导入。
+可以传入自定义的 pattern，默认 pattern 也可以通过 `from cntimenlp import pattern` 导入。
 
 ```py
 TimeNormalizer(isPreferFuture=True, pattern=None):
@@ -28,7 +28,7 @@ pip install cntime-nlp
 使用:
 
 ```py
-from ChineseTimeNLP import TimeNormalizer
+from cntimenlp import TimeNormalizer
 tn = TimeNormalizer()
 res = tn.parse(target=u"三天后")  # target 为待分析语句，baseTime 为基准时间默认是当前时间
 print(res)

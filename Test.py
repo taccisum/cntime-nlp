@@ -80,3 +80,7 @@ print("====\n")
 res = tn.parse(target="三天后")
 print(res)
 print("====\n")
+
+res = tn.parse(target="昨天", baseTime="2021-07-01 12:34:56")
+print(res)
+print("====\n")

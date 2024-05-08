@@ -1,26 +1,11 @@
-# ChineseTimeNLP
-
-[![PyPI](https://img.shields.io/pypi/v/ChineseTimeNLP.svg)](https://pypi.python.org/pypi/ChineseTimeNLP)
-![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
+# cntime-nlp
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://pypi.org/project/isort/)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
-
-[![Downloads](https://pepy.tech/badge/chinesetimenlp)](https://pepy.tech/project/chinesetimenlp)
-[![Downloads](https://pepy.tech/badge/chinesetimenlp/week)](https://pepy.tech/project/chinesetimenlp)
 
 ## 简介
 
-这是 Time-NLP 的 Python3 版本。  
-fork 自 [zhanzecheng/Time_NLP](https://github.com/zhanzecheng/Time_NLP)  
+fork 自 [Kelab/ChineseTimeNLP](https://github.com/Kelab/ChineseTimeNLP).
 
-相关链接：
-
-- Python2 版本 <https://github.com/ryanInf/Time-NLPY/tree/Python2%E7%89%88%E6%9C%AC>
-- Python3 版本 <https://github.com/ryanInf/Time-NLPY>
-- Java 版本 <https://github.com/shinyke/Time-NLP>
-- PHP 版本 <https://github.com/crazywhalecc/Time-NLP-PHP>
 
 ## 配置
 
@@ -37,7 +22,7 @@ TimeNormalizer(isPreferFuture=True, pattern=None):
 安装：
 
 ```bash
-pip install ChineseTimeNLP
+pip install cntime-nlp
 ```
 
 使用:

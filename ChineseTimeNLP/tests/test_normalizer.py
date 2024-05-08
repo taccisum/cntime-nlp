@@ -33,3 +33,8 @@ class TestNormalizer:
         res = self.tn.parse(target="7点4分", baseTime="2021-07-01")
         assert res["type"] == "timestamp"
         assert res[res["type"]] == "2021-07-01 07:04:00"
+
+    def test_case6(self):
+        res = self.tn.parse(target="昨天", baseTime="2021-07-01 12:34:56")
+        assert res["type"] == "timestamp"
+        assert res[res["type"]] == "2021-06-30 12:34:56"
